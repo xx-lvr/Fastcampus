@@ -1,5 +1,3 @@
-import java.awt.SecondaryLoop
-
 fun plusNumbers(first_num: Int, second_num: Int): Int {
     val result: Int = first_num + second_num
     return result
