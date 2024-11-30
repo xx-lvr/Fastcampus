@@ -14,7 +14,7 @@ if (number1 == 10) println("10입니다.")
 else if (number1 == 20) println("20입니다.")
 else println("10과 20 둘 다 아닙니다.")
 
-val number2: Int = 10 + 25
+val number2: Int = 10 + 25 // =을 기준으로 오른쪽에는 값이 오면 된다 -> 식이 와도 된다.
 val number3: Int = if (number2 > 30) 40 else 50
 // if (number2 >30) 40 else 50
 println(number3)
