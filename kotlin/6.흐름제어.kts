@@ -40,6 +40,7 @@ when(number4){
         println("모르겠습니다")
     }
 }
+
 when (number4){
     5-> println("5입니다")
     6-> println("6입니다")
