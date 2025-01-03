@@ -33,5 +33,12 @@ fun gradeTest(correctCount: Int): Int {
 
 fun gradeTest2(correctCount: Int): Int = correctCount * 5
 
+fun gradeTest3(correctCount: Int): Int {
+    var result: Int = 0
+    result = correctCount * 5
+    return result
+}
+
 println(gradeTest(correctCount: 10))
 println(gradeTest2(correctCount: 10))
+println(gradeTest3(correctCount = 10))
