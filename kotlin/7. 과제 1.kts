@@ -1,3 +1,5 @@
+import java.io.StreamCorruptedException
+
 // 1번 같은 둘다 Int로 같은 자료형에서 둘다 1로 하면 그것도 true로 나온다.
 val A : String = "아"
 val B : String = "아"
@@ -26,6 +28,10 @@ val result: String = checkGrade(score:90)
 
 // 4번
 fun gradeTest(correctCount: Int): Int {
-    return correctCount = 5
+    return correctCount * 5
 }
+
+fun gradeTest2(correctCount: Int): Int = correctCount * 5
+
 println(gradeTest(correctCount: 10))
+println(gradeTest2(correctCount: 10))
