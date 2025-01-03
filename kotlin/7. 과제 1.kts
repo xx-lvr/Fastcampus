@@ -44,3 +44,14 @@ println(gradeTest(correctCount: 10))
 println(gradeTest2(correctCount: 10))
 println(gradeTest3(correctCount = 10))
 println(gradeTest4(correctCount = 10))
+
+// 5번
+fun plustTwoNumbers(firstNum: Int?, secondNum: Int?): Int {
+    if (firstNum == null){
+        firstNum = 0
+    }
+    if (secondNum == null){
+        secondNum == 0
+    }
+    return firstNum + secondNum
+}
