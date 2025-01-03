@@ -47,11 +47,14 @@ println(gradeTest4(correctCount = 10))
 
 // 5번
 fun plustTwoNumbers(firstNum: Int?, secondNum: Int?): Int {
-    if (firstNum == null){
+ /*    if (firstNum == null){
         firstNum = 0
     }
     if (secondNum == null){
         secondNum == 0
-    }
+    } */
+    val first: Int = if (firstNum == null) 0 else firstNum
+    val second: Int = if(secondNum == null) 0 else secondNum
     return firstNum + secondNum
 }
+println(plustTwoNumbers(null, null))
