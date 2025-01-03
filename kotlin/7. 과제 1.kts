@@ -23,3 +23,9 @@ fun checkGrade(String:Int) : String {
 }
 val result: String = checkGrade(score:90)
         println(result)
+
+// 4번
+fun gradeTest(correctCount: Int): Int {
+    return correctCount = 5
+}
+println(gradeTest(correctCount: 10))
