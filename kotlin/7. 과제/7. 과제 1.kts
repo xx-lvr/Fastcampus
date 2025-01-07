@@ -1,5 +1,3 @@
-import java.io.StreamCorruptedException
-
 // 1번 같은 둘다 Int로 같은 자료형에서 둘다 1로 하면 그것도 true로 나온다.
 val A : String = "아"
 val B : String = "아"
