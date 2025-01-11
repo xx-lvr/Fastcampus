@@ -14,7 +14,7 @@ var array5 = IntArray(size:10, { 0 })
 
 // 배열을 선언하는 방법 (3)
 var array6 = Array<Int>(size:10, { 0 })
-var array7 = Array<String>(sie:10, { "" })
+var array7 = Array<String>(size:10, { "" })
 
 var array8 = arrayOf<Int>(10, 20, 30, 40)
 println(array8[2])
